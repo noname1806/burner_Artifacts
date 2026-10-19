@@ -1,0 +1,19 @@
+{
+  "integrity_check_after_masking": {
+    "hushed/A00_clean_baseline_20260717_041731": [
+      [
+        "ok"
+      ]
+    ],
+    "hushed/A08_before_delete_20260717_044047": [
+      [
+        "ok"
+      ]
+    ],
+    "hushed/A08_after_delete_20260717_044758": [
+      [
+        "ok"
+      ]
+    ]
+  }
+}

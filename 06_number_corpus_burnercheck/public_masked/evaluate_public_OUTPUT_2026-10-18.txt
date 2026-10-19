@@ -1,0 +1,12 @@
+positives=2508 negatives=372  (precision depends on this class ratio)
+
+Twilio line type (nonFixedVoip)    TP=1781  FN=727   FP=0    TN=372  P=1.000 R=0.710 Spec=1.000 F1=0.830
+Line type + Onvoy carrier          TP=2499  FN=9     FP=78   TN=294  P=0.970 R=0.996 Spec=0.790 F1=0.983
+NANPA prefix                       TP=1172  FN=1336  FP=138  TN=234  P=0.895 R=0.467 Spec=0.629 F1=0.614
+
+Recall per issuing app:
+  hushed    n=500  line-type=0.980  +carrier=0.986  prefix=0.412
+  2ndline   n=505  line-type=0.996  +carrier=0.996  prefix=0.356
+  burner    n=503  line-type=0.988  +carrier=1.000  prefix=0.473
+  textme    n=500  line-type=0.582  +carrier=1.000  prefix=0.468
+  textfree  n=500  line-type=0.000  +carrier=1.000  prefix=0.628

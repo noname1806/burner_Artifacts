@@ -1,0 +1,13 @@
+Main table: 500 positives (100 per app, seed 2026) + 372 known-contact negatives
+  Line type            TP=351  FN=149  FP=0    TN=372  P=1.000 [0.989, 1.0]  R=0.702 [0.66, 0.74]  Spec=1.000 [0.99, 1.0]  F1=0.825
+  Line type + carrier  TP=500  FN=0    FP=78   TN=294  P=0.865 [0.835, 0.891]  R=1.000 [0.992, 1.0]  Spec=0.790 [0.746, 0.829]  F1=0.928
+  NANPA prefix         TP=244  FN=256  FP=138  TN=234  P=0.639 [0.589, 0.685]  R=0.488 [0.444, 0.532]  Spec=0.629 [0.579, 0.677]  F1=0.553
+
+Recall per issuing app (all 2458 documented positives):
+  2ndline   n=505  Line type=0.996 [0.986, 0.999]  Line type + carrier=0.996 [0.986, 0.999]  NANPA prefix=0.356 [0.316, 0.399]
+  burner    n=503  Line type=0.988 [0.974, 0.995]  Line type + carrier=1.000 [0.992, 1.0]  NANPA prefix=0.473 [0.43, 0.517]
+  hushed    n=450  Line type=0.998 [0.988, 1.0]  Line type + carrier=1.000 [0.992, 1.0]  NANPA prefix=0.418 [0.373, 0.464]
+  textfree  n=500  Line type=0.000 [0.0, 0.008]  Line type + carrier=1.000 [0.992, 1.0]  NANPA prefix=0.628 [0.585, 0.669]
+  textme    n=500  Line type=0.582 [0.538, 0.624]  Line type + carrier=1.000 [0.992, 1.0]  NANPA prefix=0.468 [0.425, 0.512]
+
+wrote C:\Phd\Research\Burner-Paper\dataset_release\public\03_number_corpus\confusion_matrices.json

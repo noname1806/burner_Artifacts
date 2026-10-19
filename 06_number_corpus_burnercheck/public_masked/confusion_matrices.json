@@ -1,0 +1,198 @@
+{
+  "corpus": {
+    "documented_positives": 2458,
+    "negatives_known_contacts": 372,
+    "sample": "100 per app, seed 2026",
+    "sample_positives": 500
+  },
+  "main_table": {
+    "Line type": {
+      "TP": 351,
+      "FN": 149,
+      "FP": 0,
+      "TN": 372,
+      "precision": 1.0,
+      "precision_ci": [
+        0.989,
+        1.0
+      ],
+      "recall": 0.702,
+      "recall_ci": [
+        0.66,
+        0.74
+      ],
+      "specificity": 1.0,
+      "specificity_ci": [
+        0.99,
+        1.0
+      ],
+      "f1": 0.825
+    },
+    "Line type + carrier": {
+      "TP": 500,
+      "FN": 0,
+      "FP": 78,
+      "TN": 294,
+      "precision": 0.865,
+      "precision_ci": [
+        0.835,
+        0.891
+      ],
+      "recall": 1.0,
+      "recall_ci": [
+        0.992,
+        1.0
+      ],
+      "specificity": 0.79,
+      "specificity_ci": [
+        0.746,
+        0.829
+      ],
+      "f1": 0.928
+    },
+    "NANPA prefix": {
+      "TP": 244,
+      "FN": 256,
+      "FP": 138,
+      "TN": 234,
+      "precision": 0.639,
+      "precision_ci": [
+        0.589,
+        0.685
+      ],
+      "recall": 0.488,
+      "recall_ci": [
+        0.444,
+        0.532
+      ],
+      "specificity": 0.629,
+      "specificity_ci": [
+        0.579,
+        0.677
+      ],
+      "f1": 0.553
+    }
+  },
+  "recall_per_app": {
+    "2ndline": {
+      "n": 505,
+      "Line type": {
+        "recall": 0.996,
+        "ci": [
+          0.986,
+          0.999
+        ]
+      },
+      "Line type + carrier": {
+        "recall": 0.996,
+        "ci": [
+          0.986,
+          0.999
+        ]
+      },
+      "NANPA prefix": {
+        "recall": 0.356,
+        "ci": [
+          0.316,
+          0.399
+        ]
+      }
+    },
+    "burner": {
+      "n": 503,
+      "Line type": {
+        "recall": 0.988,
+        "ci": [
+          0.974,
+          0.995
+        ]
+      },
+      "Line type + carrier": {
+        "recall": 1.0,
+        "ci": [
+          0.992,
+          1.0
+        ]
+      },
+      "NANPA prefix": {
+        "recall": 0.473,
+        "ci": [
+          0.43,
+          0.517
+        ]
+      }
+    },
+    "hushed": {
+      "n": 450,
+      "Line type": {
+        "recall": 0.998,
+        "ci": [
+          0.988,
+          1.0
+        ]
+      },
+      "Line type + carrier": {
+        "recall": 1.0,
+        "ci": [
+          0.992,
+          1.0
+        ]
+      },
+      "NANPA prefix": {
+        "recall": 0.418,
+        "ci": [
+          0.373,
+          0.464
+        ]
+      }
+    },
+    "textfree": {
+      "n": 500,
+      "Line type": {
+        "recall": 0.0,
+        "ci": [
+          0.0,
+          0.008
+        ]
+      },
+      "Line type + carrier": {
+        "recall": 1.0,
+        "ci": [
+          0.992,
+          1.0
+        ]
+      },
+      "NANPA prefix": {
+        "recall": 0.628,
+        "ci": [
+          0.585,
+          0.669
+        ]
+      }
+    },
+    "textme": {
+      "n": 500,
+      "Line type": {
+        "recall": 0.582,
+        "ci": [
+          0.538,
+          0.624
+        ]
+      },
+      "Line type + carrier": {
+        "recall": 1.0,
+        "ci": [
+          0.992,
+          1.0
+        ]
+      },
+      "NANPA prefix": {
+        "recall": 0.468,
+        "ci": [
+          0.425,
+          0.512
+        ]
+      }
+    }
+  }
+}

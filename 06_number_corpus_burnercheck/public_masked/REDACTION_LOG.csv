@@ -1,0 +1,114 @@
+location,rule,detail,count
+2ndline/Dingtone.db,known,2ndLine/Dingtone userId (cloud credential half),1
+2ndline/Dingtone.db,known_int,userId,1
+2ndline/Dingtone.db,phone_nanp,,6
+2ndline/Dingtone.db,table_emptied,dt_head_hdimage (1 rows: synced device address book / profile media),1
+2ndline/Dingtone.db,table_emptied,local_user (574 rows: synced device address book / profile media),1
+2ndline/Dingtone.db,table_emptied,local_user_data (625 rows: synced device address book / profile media),1
+2ndline_frida_ssl/me.number.app.im_in.bin,json_key,adid,2
+2ndline_frida_ssl/me.number.app.im_in.bin,json_key,app_events_session_timeout,4
+2ndline_frida_ssl/me.number.app.im_in.bin,json_key,app_token,2
+2ndline_frida_ssl/me.number.app.im_in.bin,json_key,name,4
+2ndline_frida_ssl/me.number.app.im_in.bin,json_key,phoneNum,1
+2ndline_frida_ssl/me.number.app.im_in.bin,long_secret,,6
+2ndline_frida_ssl/me.number.app.im_in.bin,phone_nanp,,3
+2ndline_frida_ssl/me.number.app.im_out.bin,json_key,mobileSubtype,12
+2ndline_frida_ssl/me.number.app.im_out.bin,json_key,sign,6
+2ndline_frida_ssl/me.number.app.im_out.bin,known,2ndLine/Dingtone deviceId (cloud credential half),8
+2ndline_frida_ssl/me.number.app.im_out.bin,known,2ndLine/Dingtone userId (cloud credential half),8
+2ndline_frida_ssl/me.number.app.im_out.bin,known,shared_prefs value anonymousAppDeviceGUID,2
+2ndline_frida_ssl/me.number.app.im_out.bin,long_secret,,10
+2ndline_frida_ssl/me.number.app.im_out.bin,path_id,,10
+2ndline_frida_ssl/me.number.app.im_out.bin,phone_nanp,,2
+2ndline_frida_ssl/me.number.app.im_out.bin,query,advertiser_id,2
+2ndline_frida_ssl/me.number.app.im_out.bin,query,advertiser_tracking_enabled,2
+2ndline_frida_ssl/me.number.app.im_out.bin,query,app_token,2
+2ndline_frida_ssl/me.number.app.im_out.bin,query,custom_events,2
+2ndline_frida_ssl/me.number.app.im_out.bin,query,deviceId,6
+2ndline_frida_ssl/me.number.app.im_out.bin,query,event_token,2
+2ndline_frida_ssl/me.number.app.im_out.bin,query,gps_adid,2
+2ndline_frida_ssl/me.number.app.im_out.bin,query,gps_adid_attempt,2
+2ndline_frida_ssl/me.number.app.im_out.bin,query,gps_adid_src,2
+2ndline_frida_ssl/me.number.app.im_out.bin,query,push_token,2
+2ndline_frida_ssl/me.number.app.im_out.bin,query,session_count,2
+2ndline_frida_ssl/me.number.app.im_out.bin,query,session_length,2
+2ndline_frida_ssl/me.number.app.im_out.bin,query,subsession_count,2
+2ndline_frida_ssl/me.number.app.im_out.bin,query,userId,12
+hushed/A00_clean_baseline_20260717_041731,db_bytes,1 occurrence(s) of one identifier,1
+hushed/A00_clean_baseline_20260717_041731,db_bytes,105 occurrence(s) of one identifier,1
+hushed/A00_clean_baseline_20260717_041731,db_bytes,12 occurrence(s) of one identifier,1
+hushed/A00_clean_baseline_20260717_041731,db_bytes,2 occurrence(s) of one identifier,3
+hushed/A00_clean_baseline_20260717_041731,db_bytes,30 occurrence(s) of one identifier,1
+hushed/A00_clean_baseline_20260717_041731,db_bytes,4 occurrence(s) of one identifier,1
+hushed/A00_clean_baseline_20260717_041731,db_bytes,51 occurrence(s) of one identifier,1
+hushed/A00_clean_baseline_20260717_041731,db_bytes,88 occurrence(s) of one identifier,1
+hushed/A00_clean_baseline_20260717_041731,db_bytes,9 occurrence(s) of one identifier,1
+hushed/A08_after_delete_20260717_044758,db_bytes,1 occurrence(s) of one identifier,1
+hushed/A08_after_delete_20260717_044758,db_bytes,12 occurrence(s) of one identifier,1
+hushed/A08_after_delete_20260717_044758,db_bytes,2 occurrence(s) of one identifier,3
+hushed/A08_after_delete_20260717_044758,db_bytes,29 occurrence(s) of one identifier,1
+hushed/A08_after_delete_20260717_044758,db_bytes,4 occurrence(s) of one identifier,1
+hushed/A08_after_delete_20260717_044758,db_bytes,45 occurrence(s) of one identifier,1
+hushed/A08_after_delete_20260717_044758,db_bytes,84 occurrence(s) of one identifier,1
+hushed/A08_after_delete_20260717_044758,db_bytes,9 occurrence(s) of one identifier,1
+hushed/A08_after_delete_20260717_044758,db_bytes,97 occurrence(s) of one identifier,1
+hushed/A08_before_delete_20260717_044047,db_bytes,1 occurrence(s) of one identifier,1
+hushed/A08_before_delete_20260717_044047,db_bytes,105 occurrence(s) of one identifier,1
+hushed/A08_before_delete_20260717_044047,db_bytes,12 occurrence(s) of one identifier,1
+hushed/A08_before_delete_20260717_044047,db_bytes,2 occurrence(s) of one identifier,3
+hushed/A08_before_delete_20260717_044047,db_bytes,30 occurrence(s) of one identifier,1
+hushed/A08_before_delete_20260717_044047,db_bytes,4 occurrence(s) of one identifier,1
+hushed/A08_before_delete_20260717_044047,db_bytes,51 occurrence(s) of one identifier,1
+hushed/A08_before_delete_20260717_044047,db_bytes,88 occurrence(s) of one identifier,1
+hushed/A08_before_delete_20260717_044047,db_bytes,9 occurrence(s) of one identifier,1
+hushed_frida_ssl/in.bin,long_secret,,2
+hushed_frida_ssl/items_in.bin,long_secret,,2
+hushed_frida_ssl/out.bin,json_key,api_key,16
+hushed_frida_ssl/out.bin,json_key,device_id,16
+hushed_frida_ssl/out.bin,json_key,email,2
+hushed_frida_ssl/out.bin,json_key,email_subscribe,2
+hushed_frida_ssl/out.bin,json_key,lastKnownVersionNumber,2
+hushed_frida_ssl/out.bin,json_key,name,8
+hushed_frida_ssl/out.bin,json_key,push_token,4
+hushed_frida_ssl/out.bin,json_key,session_id,8
+hushed_frida_ssl/out.bin,json_key,user_id,32
+hushed_frida_ssl/out.bin,known,shared_prefs value firebase.installation.id,2
+hushed_frida_ssl/out.bin,known,shared_prefs value gmp_app_id,2
+hushed_frida_ssl/out.bin,path_id,,2
+hushed_frida_ssl/out.bin,query,buildnumber,2
+textme/mitm.log,google_api_key,,6
+textme/mitm.log,jwt,,1
+textme/mitm.log,long_secret,,21
+textme/mitm.log,phone_nanp,,8
+textme/textme.flows,fcm_token,,1
+textme/textme.flows,google_api_key,,1
+textme/textme.flows,json_key,advertiserId,1
+textme/textme.flows,json_key,af_gcm_token,1
+textme/textme.flows,json_key,appInstanceIdToken,1
+textme/textme.flows,json_key,authVersion,1
+textme/textme.flows,json_key,fid,2
+textme/textme.flows,json_key,fpr_session_gauge_cpu_capture_frequency_fg_ms,1
+textme/textme.flows,json_key,fpr_session_gauge_memory_capture_frequency_fg_ms,1
+textme/textme.flows,json_key,fpr_session_max_length_min,1
+textme/textme.flows,json_key,fpr_vc_session_sampling_rate,1
+textme/textme.flows,json_key,name,1
+textme/textme.flows,json_key,refreshToken,1
+textme/textme.flows,json_key,token,1
+textme/textme.flows,json_key,uid,1
+textme/textme.flows,long_secret,,25
+textme/textme.flows,path_id,,7
+textme/textme.flows,phone_nanp,,5
+textme/textme.flows,query,IMEI,3
+textme/textme.flows,query,IMSI,3
+textme/textme.flows,query,X-Goog-Firebase-Installations-Auth,1
+textme/textme.flows,query,android_id,5
+textme/textme.flows,query,buildnumber,5
+textme/textme.flows,query,device_id,1
+textme/textme.flows,query,device_token,1
+textme/textme.flows,query,device_uid,8
+textme/textme.flows,query,fallback_opts,1
+textme/textme.flows,query,google_ad_id,5
+textme/textme.flows,query,key,6
+textme/textme.flows,query,qsubts,2
+textme/textme.flows,query,s,4
+textme/textme.flows,query,sender,1

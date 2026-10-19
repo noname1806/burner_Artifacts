@@ -1,0 +1,8 @@
+# Restricted forensic data — must NOT be published (see README.txt)
+99_RESTRICTED_DO_NOT_SHARE/
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp

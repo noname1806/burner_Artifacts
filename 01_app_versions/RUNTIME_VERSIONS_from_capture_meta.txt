@@ -1,0 +1,30 @@
+== captures/com.hushed.release/A00_clean_baseline_20260717_041731/meta.txt
+package    : com.hushed.release
+action_tag : A00_clean_baseline
+timestamp  : 20260717_041731
+device     : sdk_gphone64_x86_64 / android 12
+app_version: versionName=5.31.0
+== captures/com.hushed.release/A08_after_20260717_044758/meta.txt
+package    : com.hushed.release
+action_tag : A08_after
+timestamp  : 20260717_044758
+device     : sdk_gphone64_x86_64 / android 12
+app_version: versionName=5.31.0
+== captures/com.hushed.release/A08_before_20260717_044047/meta.txt
+package    : com.hushed.release
+action_tag : A08_before
+timestamp  : 20260717_044047
+device     : sdk_gphone64_x86_64 / android 12
+app_version: versionName=5.31.0
+== captures/com.hushed.release/orch_baseline_20260718_023858/meta.txt
+package    : com.hushed.release
+action_tag : orch_baseline
+timestamp  : 20260718_023858
+device     : sdk_gphone64_x86_64 / android 12
+app_version: versionName=5.31.0
+== captures/me.number.app.im/A00_baseline_20260717_053553/meta.txt
+package    : me.number.app.im
+action_tag : A00_baseline
+timestamp  : 20260717_053553
+device     : sdk_gphone64_x86_64 / android 12
+app_version: versionName=2.6.2

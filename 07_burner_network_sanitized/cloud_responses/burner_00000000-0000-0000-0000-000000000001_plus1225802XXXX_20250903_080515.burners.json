@@ -1,0 +1,84 @@
+[
+  {
+    "dateCreated": 1754635016674,
+    "entitlements": {
+      "featureSet": {
+        "calling": true,
+        "customVoicemail": true,
+        "forwarding": false,
+        "id": 2,
+        "messageAutoReply": true,
+        "mms": true,
+        "name": "standardSubscription",
+        "outboundCallerId": false,
+        "reverseNumberLookup": false,
+        "unlimitedMessages": true,
+        "unlimitedMinutes": true,
+        "video": false,
+        "voicemailTranscription": false
+      },
+      "remainingMinutes": 0,
+      "remainingTexts": 0,
+      "totalMinutes": 0,
+      "totalTexts": 0
+    },
+    "expirationDate": 1758177409139,
+    "id": "00000000-0000-0000-0000-000000000002",
+    "numberType": "StandardNumber",
+    "phoneNumber": "+1225217XXXX",
+    "settings": {
+      "autoReplyMessage": {
+        "active": false,
+        "text": "I'm away from my phone. I'll get back to you ASAP."
+      },
+      "callRingEnabled": true,
+      "hexColor": 0,
+      "incomingCallNumberDisplay": "BurnerNumber",
+      "name": "Private Phone",
+      "notificationsEnabled": true,
+      "voicemailTranscriptionEnabled": true,
+      "voipEnabled": true
+    }
+  },
+  {
+    "dateCreated": 1755731873886,
+    "entitlements": {
+      "featureSet": {
+        "calling": true,
+        "customVoicemail": true,
+        "forwarding": false,
+        "id": 2,
+        "messageAutoReply": true,
+        "mms": true,
+        "name": "standardSubscription",
+        "outboundCallerId": false,
+        "reverseNumberLookup": false,
+        "unlimitedMessages": true,
+        "unlimitedMinutes": true,
+        "video": false,
+        "voicemailTranscription": false
+      },
+      "remainingMinutes": 0,
+      "remainingTexts": 0,
+      "totalMinutes": 0,
+      "totalTexts": 0
+    },
+    "expirationDate": 1758177409139,
+    "id": "00000000-0000-0000-0000-000000000001",
+    "numberType": "StandardNumber",
+    "phoneNumber": "+1615307XXXX",
+    "settings": {
+      "autoReplyMessage": {
+        "active": false,
+        "text": "I'm away from my phone. I'll get back to you ASAP."
+      },
+      "callRingEnabled": true,
+      "hexColor": 0,
+      "incomingCallNumberDisplay": "BurnerNumber",
+      "name": "Online Phone",
+      "notificationsEnabled": true,
+      "voicemailTranscriptionEnabled": true,
+      "voipEnabled": true
+    }
+  }
+]

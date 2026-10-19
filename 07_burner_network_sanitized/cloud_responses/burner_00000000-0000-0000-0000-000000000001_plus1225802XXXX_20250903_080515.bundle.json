@@ -1,0 +1,394 @@
+{
+  "burners": [
+    {
+      "dateCreated": 1754635016674,
+      "entitlements": {
+        "featureSet": {
+          "calling": true,
+          "customVoicemail": true,
+          "forwarding": false,
+          "id": 2,
+          "messageAutoReply": true,
+          "mms": true,
+          "name": "standardSubscription",
+          "outboundCallerId": false,
+          "reverseNumberLookup": false,
+          "unlimitedMessages": true,
+          "unlimitedMinutes": true,
+          "video": false,
+          "voicemailTranscription": false
+        },
+        "remainingMinutes": 0,
+        "remainingTexts": 0,
+        "totalMinutes": 0,
+        "totalTexts": 0
+      },
+      "expirationDate": 1758177409139,
+      "id": "00000000-0000-0000-0000-000000000002",
+      "numberType": "StandardNumber",
+      "phoneNumber": "+1225217XXXX",
+      "settings": {
+        "autoReplyMessage": {
+          "active": false,
+          "text": "I'm away from my phone. I'll get back to you ASAP."
+        },
+        "callRingEnabled": true,
+        "hexColor": 0,
+        "incomingCallNumberDisplay": "BurnerNumber",
+        "name": "Private Phone",
+        "notificationsEnabled": true,
+        "voicemailTranscriptionEnabled": true,
+        "voipEnabled": true
+      }
+    },
+    {
+      "dateCreated": 1755731873886,
+      "entitlements": {
+        "featureSet": {
+          "calling": true,
+          "customVoicemail": true,
+          "forwarding": false,
+          "id": 2,
+          "messageAutoReply": true,
+          "mms": true,
+          "name": "standardSubscription",
+          "outboundCallerId": false,
+          "reverseNumberLookup": false,
+          "unlimitedMessages": true,
+          "unlimitedMinutes": true,
+          "video": false,
+          "voicemailTranscription": false
+        },
+        "remainingMinutes": 0,
+        "remainingTexts": 0,
+        "totalMinutes": 0,
+        "totalTexts": 0
+      },
+      "expirationDate": 1758177409139,
+      "id": "00000000-0000-0000-0000-000000000001",
+      "numberType": "StandardNumber",
+      "phoneNumber": "+1615307XXXX",
+      "settings": {
+        "autoReplyMessage": {
+          "active": false,
+          "text": "I'm away from my phone. I'll get back to you ASAP."
+        },
+        "callRingEnabled": true,
+        "hexColor": 0,
+        "incomingCallNumberDisplay": "BurnerNumber",
+        "name": "Online Phone",
+        "notificationsEnabled": true,
+        "voicemailTranscriptionEnabled": true,
+        "voipEnabled": true
+      }
+    }
+  ],
+  "subscriptions": [
+    {
+      "attachedBurnerIds": [
+        "00000000-0000-0000-0000-000000000001",
+        "00000000-0000-0000-0000-000000000002"
+      ],
+      "burnersAssignedInPeriod": 3,
+      "dates": {
+        "cancelledDate": 1754897996002,
+        "createdDate": 1754635016158,
+        "numberDeletionDate": 1758177409139,
+        "renewalDate": 1757572609139
+      },
+      "entitlements": {
+        "entitlementsType": "Standard",
+        "standardNumbers": {
+          "maxBurners": 3,
+          "maxBurnersPerPeriod": 6,
+          "numberFeatureSet": {
+            "calling": true,
+            "customVoicemail": true,
+            "forwarding": false,
+            "id": 2,
+            "messageAutoReply": true,
+            "mms": true,
+            "name": "standardSubscription",
+            "outboundCallerId": false,
+            "reverseNumberLookup": false,
+            "unlimitedMessages": true,
+            "unlimitedMinutes": true,
+            "video": false,
+            "voicemailTranscription": false
+          },
+          "numberType": "StandardNumber"
+        }
+      },
+      "expirationReason": "Cancelled",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "isTestSubscription": false,
+      "periodType": "Default",
+      "priceInfo": {
+        "base": {
+          "price": 999
+        },
+        "current": {
+          "price": 999
+        }
+      },
+      "promotions": [],
+      "renewalPeriod": "Month",
+      "sku": "burner.sub.standard.3.m.999.trial.3.d",
+      "state": "Active",
+      "stateV2": "Active",
+      "store": "Google",
+      "subscriptionType": "StandardNumbers"
+    }
+  ],
+  "conversations": [
+    {
+      "burnerId": "00000000-0000-0000-0000-000000000001",
+      "conversation": {
+        "conversationId": "+1225802XXXX",
+        "isGroupConversation": false
+      },
+      "dateCreated": 1756886698811,
+      "direction": "Outbound",
+      "id": "00000000-0000-0000-0000-000000000004",
+      "lastUpdatedDate": 1756886698811,
+      "messageType": "Text",
+      "read": true,
+      "state": "Delivered",
+      "text": "this is second burner phone message",
+      "userId": "00000000-0000-0000-0000-000000000005"
+    },
+    {
+      "burnerId": "00000000-0000-0000-0000-000000000002",
+      "conversation": {
+        "conversationId": "+1225802XXXX",
+        "isGroupConversation": false
+      },
+      "dateCreated": 1756886102156,
+      "direction": "Outbound",
+      "id": "00000000-0000-0000-0000-000000000006",
+      "lastUpdatedDate": 1756886102156,
+      "messageType": "Text",
+      "read": true,
+      "state": "Delivered",
+      "text": "this is python script",
+      "userId": "00000000-0000-0000-0000-000000000005"
+    },
+    {
+      "burnerId": "00000000-0000-0000-0000-000000000002",
+      "conversation": {
+        "conversationId": "+1225489XXXX",
+        "isGroupConversation": false
+      },
+      "dateCreated": 1756843602247,
+      "direction": "Outbound",
+      "id": "00000000-0000-0000-0000-000000000007",
+      "lastUpdatedDate": 1756843602247,
+      "messageType": "Text",
+      "read": true,
+      "state": "Delivered",
+      "text": "hey abdullah somke",
+      "userId": "00000000-0000-0000-0000-000000000005"
+    },
+    {
+      "burnerId": "00000000-0000-0000-0000-000000000002",
+      "conversation": {
+        "conversationId": "+1225493XXXX",
+        "isGroupConversation": false
+      },
+      "dateCreated": 1756501837197,
+      "direction": "Outbound",
+      "id": "00000000-0000-0000-0000-000000000008",
+      "lastUpdatedDate": 1756501837197,
+      "messageType": "Text",
+      "read": true,
+      "state": "Delivered",
+      "text": "ggmu",
+      "userId": "00000000-0000-0000-0000-000000000005"
+    },
+    {
+      "burnerId": "00000000-0000-0000-0000-000000000002",
+      "conversation": {
+        "conversationId": "+1203444XXXX",
+        "isGroupConversation": false
+      },
+      "dateCreated": 1756500828509,
+      "direction": "Inbound",
+      "id": "00000000-0000-0000-0000-000000000009",
+      "lastUpdatedDate": 1756500828509,
+      "messageType": "Text",
+      "read": true,
+      "state": "Delivered",
+      "text": "wow ",
+      "userId": "00000000-0000-0000-0000-000000000005"
+    },
+    {
+      "burnerId": "00000000-0000-0000-0000-000000000001",
+      "conversation": {
+        "conversationId": "+1225217XXXX",
+        "isGroupConversation": false
+      },
+      "dateCreated": 1756500704104,
+      "direction": "Inbound",
+      "id": "00000000-0000-0000-0000-000000000010",
+      "lastUpdatedDate": 1756500704104,
+      "messageType": "Text",
+      "read": false,
+      "state": "Delivered",
+      "text": "this is second test for messages",
+      "userId": "00000000-0000-0000-0000-000000000005"
+    },
+    {
+      "burnerId": "00000000-0000-0000-0000-000000000002",
+      "conversation": {
+        "conversationId": "+1615307XXXX",
+        "isGroupConversation": false
+      },
+      "dateCreated": 1756500704067,
+      "direction": "Outbound",
+      "id": "00000000-0000-0000-0000-000000000011",
+      "lastUpdatedDate": 1756500704067,
+      "messageType": "Text",
+      "read": true,
+      "state": "Delivered",
+      "text": "this is second test for messages",
+      "userId": "00000000-0000-0000-0000-000000000005"
+    },
+    {
+      "burnerId": "00000000-0000-0000-0000-000000000001",
+      "conversation": {
+        "conversationId": "+1225921XXXX",
+        "isGroupConversation": false
+      },
+      "dateCreated": 1756449587598,
+      "direction": "Outbound",
+      "id": "00000000-0000-0000-0000-000000000012",
+      "lastUpdatedDate": 1756449587598,
+      "messageType": "Text",
+      "read": true,
+      "state": "Delivered",
+      "text": "Hala Madrid",
+      "userId": "00000000-0000-0000-0000-000000000005"
+    },
+    {
+      "burnerId": "00000000-0000-0000-0000-000000000001",
+      "conversation": {
+        "conversationId": "+1615434XXXX",
+        "isGroupConversation": false
+      },
+      "dateCreated": 1756244546941,
+      "direction": "Inbound",
+      "id": "00000000-0000-0000-0000-000000000013",
+      "lastUpdatedDate": 1756244546941,
+      "messageType": "Voice",
+      "read": true,
+      "state": "Voicemail",
+      "text": "",
+      "userId": "00000000-0000-0000-0000-000000000005",
+      "voicemail": {
+        "audioUrl": "https://s3.amazonaws.com/burner-voicemail/prod/00000000-0000-0000-0000-000000000014.wav",
+        "createdAt": "2025-08-26T21:42:26.941Z",
+        "durationSeconds": 22,
+        "updatedAt": "2025-08-26T21:42:26.941Z"
+      }
+    },
+    {
+      "burnerId": "00000000-0000-0000-0000-000000000001",
+      "conversation": {
+        "conversationId": "+1225586XXXX",
+        "isGroupConversation": false
+      },
+      "dateCreated": 1755731911872,
+      "direction": "Outbound",
+      "id": "00000000-0000-0000-0000-000000000015",
+      "lastUpdatedDate": 1755731911872,
+      "messageType": "Text",
+      "read": true,
+      "state": "Delivered",
+      "text": "Testing burner app .",
+      "userId": "00000000-0000-0000-0000-000000000005"
+    },
+    {
+      "burnerId": "00000000-0000-0000-0000-000000000002",
+      "conversation": {
+        "conversationId": "+1605728XXXX",
+        "isGroupConversation": false
+      },
+      "dateCreated": 1754639332370,
+      "direction": "Outbound",
+      "id": "00000000-0000-0000-0000-000000000016",
+      "lastUpdatedDate": 1754639332370,
+      "messageType": "Text",
+      "read": true,
+      "state": "Delivered",
+      "text": "Hala Madrid",
+      "userId": "00000000-0000-0000-0000-000000000005"
+    }
+  ],
+  "messages": [
+    {
+      "burnerId": "00000000-0000-0000-0000-000000000001",
+      "conversation": {
+        "conversationId": "+1225802XXXX",
+        "isGroupConversation": false
+      },
+      "dateCreated": 1756886698811,
+      "direction": "Outbound",
+      "id": "00000000-0000-0000-0000-000000000004",
+      "lastUpdatedDate": 1756886698811,
+      "messageType": "Text",
+      "read": true,
+      "state": "Delivered",
+      "text": "this is second burner phone message",
+      "userId": "00000000-0000-0000-0000-000000000005"
+    }
+  ],
+  "sipRegistration": {
+    "domains": [
+      "burner-prod.vp.sip.global",
+      "burnercmrs-prod.vp.sip.global"
+    ],
+    "password": "3KEShd2LLQiTbKiC1pkkemPI",
+    "username": "00000000-0000-0000-0000-000000000005"
+  },
+  "selectedBurner": {
+    "dateCreated": 1755731873886,
+    "entitlements": {
+      "featureSet": {
+        "calling": true,
+        "customVoicemail": true,
+        "forwarding": false,
+        "id": 2,
+        "messageAutoReply": true,
+        "mms": true,
+        "name": "standardSubscription",
+        "outboundCallerId": false,
+        "reverseNumberLookup": false,
+        "unlimitedMessages": true,
+        "unlimitedMinutes": true,
+        "video": false,
+        "voicemailTranscription": false
+      },
+      "remainingMinutes": 0,
+      "remainingTexts": 0,
+      "totalMinutes": 0,
+      "totalTexts": 0
+    },
+    "expirationDate": 1758177409139,
+    "id": "00000000-0000-0000-0000-000000000001",
+    "numberType": "StandardNumber",
+    "phoneNumber": "+1615307XXXX",
+    "settings": {
+      "autoReplyMessage": {
+        "active": false,
+        "text": "I'm away from my phone. I'll get back to you ASAP."
+      },
+      "callRingEnabled": true,
+      "hexColor": 0,
+      "incomingCallNumberDisplay": "BurnerNumber",
+      "name": "Online Phone",
+      "notificationsEnabled": true,
+      "voicemailTranscriptionEnabled": true,
+      "voipEnabled": true
+    }
+  }
+}

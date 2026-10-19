@@ -1,0 +1,25 @@
+{
+  "hushed_frida_ssl/in.bin": {
+    "http_messages": 22,
+    "unparsed_bytes_withheld": 9998
+  },
+  "hushed_frida_ssl/out.bin": {
+    "http_messages": 24,
+    "unparsed_bytes_withheld": 9372
+  },
+  "hushed_frida_ssl/items_in.bin": {
+    "http_messages": 22,
+    "unparsed_bytes_withheld": 7630
+  },
+  "2ndline_frida_ssl/me.number.app.im_in.bin": {
+    "http_messages": 36,
+    "unparsed_bytes_withheld": 0
+  },
+  "2ndline_frida_ssl/me.number.app.im_out.bin": {
+    "http_messages": 36,
+    "unparsed_bytes_withheld": 0
+  },
+  "textme/textme.flows": {
+    "http_messages": 1251
+  }
+}

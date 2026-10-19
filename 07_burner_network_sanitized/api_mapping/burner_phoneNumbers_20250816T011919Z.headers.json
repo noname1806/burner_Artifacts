@@ -1,0 +1,12 @@
+{
+  "url": "https://phoenix.burnerapp.com/v2/user/00000000-0000-0000-0000-000000000005/phoneNumbers?areaCode=225&numberType=StandardNumber",
+  "status_code": 401,
+  "reason": "Unauthorized",
+  "headers": {
+    "Date": "Sat, 16 Aug 2025 01:19:21 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "34",
+    "Connection": "keep-alive",
+    "Server": "nginx"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "burnerId": "00000000-0000-0000-0000-000000000001",
+    "conversation": {
+      "conversationId": "+1225802XXXX",
+      "isGroupConversation": false
+    },
+    "dateCreated": 1756886698811,
+    "direction": "Outbound",
+    "id": "00000000-0000-0000-0000-000000000004",
+    "lastUpdatedDate": 1756886698811,
+    "messageType": "Text",
+    "read": true,
+    "state": "Delivered",
+    "text": "this is second burner phone message",
+    "userId": "00000000-0000-0000-0000-000000000005"
+  }
+]

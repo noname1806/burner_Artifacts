@@ -1,0 +1,5 @@
+package    : me.number.app.im
+action_tag : A00_baseline
+timestamp  : 20260717_053553
+device     : sdk_gphone64_x86_64 / android 12
+app_version: versionName=2.6.2

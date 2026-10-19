@@ -1,0 +1,30 @@
+{
+  "package": "com.hushed.release",
+  "hardening": "# hardening scan: hushed_5.31.0.apk  (29650 KB DEX)\n\n## anti-analysis / hardening markers\n  [ ] PairIP (VM code protection)\n  [ ] Play licensing / integrity check\n  [x] Play Integrity API                     (x27: PlayIntegrity:4, IntegrityManager:21, integrityToken:2)\n  [ ] DroidGuard (SafetyNet/Integrity)\n  [ ] Firebase App Check (attestation)\n  [ ] FingerprintJS (device fingerprint)\n  [x] TLS certificate pinning                (x29: CertificatePinner:25, checkServerTrusted:2, pinning:2)\n  [x] Anti-Frida / debugger checks           (x12: frida:3, debugger:9)\n  [x] SQLCipher (encrypted DB)               (x82: net/sqlcipher:79, SupportFactory:3)\n\n## backend / cloud hosts (first-party-looking first)\n  * api.production.hushed.com\n  * console.firebase.google.com\n  * firebase-settings.crashlytics.com\n  * firebase.google.com\n  * firebaseremoteconfig.googleapis.com\n  * firebaseremoteconfigrealtime.googleapis.com\n  * gk.production.hushed.com\n  * media.production.hushed.com\n  * www.googleapis.com\n  ... plus 42 more hosts (ad/analytics/CDN); 51 total\n\n## outcome-schema hint\n  Dynamic layers likely NOT FEASIBLE on a rooted/emulated device; record as \\notfeasible with mechanism: Play Integrity API.\n",
+  "acquisition": {
+    "tar": "captures\\com.hushed.release\\orch_baseline_20260718_023858\\appdata.tar",
+    "sha256": "08e5755af0925d53342637d680af7d867166f9431de641870a939edef1b6d73b"
+  },
+  "databases": [
+    {
+      "path": "databases/google_app_measurement_local.db",
+      "size": 16384,
+      "encrypted": false
+    },
+    {
+      "path": "databases/hushed-encrypted.db",
+      "size": 217088,
+      "encrypted": true
+    },
+    {
+      "path": "databases/maelstrom.db",
+      "size": 24576,
+      "encrypted": false
+    },
+    {
+      "path": "databases/afpurchases.db",
+      "size": 20480,
+      "encrypted": false
+    }
+  ]
+}

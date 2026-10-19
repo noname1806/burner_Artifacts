@@ -1,0 +1,10 @@
+file,package,versionName,versionCode,minSdk,size_bytes,sha256,used_for
+"apk/hushed_5.31.0.apk",com.hushed.release,5.31.0,53100,24,148542624,8bd83161a5df4bc46b307263537e3a34e8086e7417051d56cba091a38ff7c790,"Hushed: static RE (key derivation) + dynamic (acquisitions A00/A08, Frida)"
+"apk/textme_base.apk",com.textmeinc.textme,3.54.0,354000009,29,150396349,83dfa1dda125cedfa5fa151b0aa383c66b8f00f12a583dc1b4c02da303afc443,"TextMe 3.54.0: PairIP SIGSEGV on API31 emulator (Sec 4.4)"
+"apk/textme_split_config.x86_64.apk",com.textmeinc.textme,,354000009,29,23554138,10a0f4035855df7b2efbdb1c3022abf6a775055db6f33b33e2fa1bc59c493f5a,"TextMe 3.54.0 x86_64 split"
+"textMeapk/TextMe_3.44.0_upload (2).apk",com.textmeinc.textme,3.44.0,344000006,24,57354348,002a4e902c7bf0ed7f5111ca932e17bcd43f099db6195c131076bfbab1f675cb,"TextMe 3.44.0: earlier pinning-era release (Table 3 row) - static"
+"textMeapk/xapk_extract/com.textmeinc.textme.apk",com.textmeinc.textme,3.55.0,355000004,32,156045140,f5254d18b7ab620fb39b56724c525cb76c6ebc78b28056c284c7c8e1757c6b34,"TextMe 3.55.0: API33 AVD mitmproxy run + PairIP Frida crash"
+"apk/textfree_base.apk",com.pinger.textfree,13.22,260156,32,79704337,eb9685cce56d9efbb63b2f7075c27f02e96f4853a37c0c082c7a794f2454ba7b,"TextFree 13.22: INSTALL_FAILED_OLDER_SDK (minSdk 32) - static only (Sec 4.5)"
+"textMeapk/tf_extract/com.pinger.textfree.apk",com.pinger.textfree,12.80,260058,26,89708857,0d5e1ef79306f07b189bad3584f560e8c11b8c42f933de3a61d16f092794c42f,"TextFree 12.80 (minSdk 26): older build, static only"
+"dingtone_apk/xapk_extract/me.number.app.im.apk",me.number.app.im,2.6.1,302,24,38378111,a39340f63506401c35841930536197b109d1a1db140ac61d5a334c10345784de,"2ndLine 2.6.1: static endpoint extraction (runtime capture used 2.6.2)"
+"C:/Phd/Research/burner/base.apk",com.adhoclabs.burner,5.13.0.2530.5929016,2197,29,107232909,de81dfbec13e5090e9d1fad537365250531ad1a500524731d8793b6846917529,"Burner: only APK on disk; acquisitions report appVersion 2921 so this is NOT the acquired build"

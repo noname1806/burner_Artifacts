@@ -1,0 +1,57 @@
+[
+  {
+    "attachedBurnerIds": [
+      "00000000-0000-0000-0000-000000000001",
+      "00000000-0000-0000-0000-000000000002"
+    ],
+    "burnersAssignedInPeriod": 3,
+    "dates": {
+      "cancelledDate": 1754897996002,
+      "createdDate": 1754635016158,
+      "numberDeletionDate": 1758177409139,
+      "renewalDate": 1757572609139
+    },
+    "entitlements": {
+      "entitlementsType": "Standard",
+      "standardNumbers": {
+        "maxBurners": 3,
+        "maxBurnersPerPeriod": 6,
+        "numberFeatureSet": {
+          "calling": true,
+          "customVoicemail": true,
+          "forwarding": false,
+          "id": 2,
+          "messageAutoReply": true,
+          "mms": true,
+          "name": "standardSubscription",
+          "outboundCallerId": false,
+          "reverseNumberLookup": false,
+          "unlimitedMessages": true,
+          "unlimitedMinutes": true,
+          "video": false,
+          "voicemailTranscription": false
+        },
+        "numberType": "StandardNumber"
+      }
+    },
+    "expirationReason": "Cancelled",
+    "id": "00000000-0000-0000-0000-000000000003",
+    "isTestSubscription": false,
+    "periodType": "Default",
+    "priceInfo": {
+      "base": {
+        "price": 999
+      },
+      "current": {
+        "price": 999
+      }
+    },
+    "promotions": [],
+    "renewalPeriod": "Month",
+    "sku": "burner.sub.standard.3.m.999.trial.3.d",
+    "state": "Active",
+    "stateV2": "Active",
+    "store": "Google",
+    "subscriptionType": "StandardNumbers"
+  }
+]

@@ -1,0 +1,22 @@
+== 1. Reproduction (positives=2458, negatives=372)
+Line type                    TP=1740  FN=718   FP=0    TN=372  P=1.000 [0.998, 1.000]  R=0.708 [0.690, 0.726]  Spec=1.000 [0.990, 1.000]  F1=0.829
+Line type + Onvoy*           TP=2456  FN=2     FP=78   TN=294  P=0.969 [0.962, 0.975]  R=0.999 [0.997, 1.000]  Spec=0.790 [0.746, 0.829]  F1=0.984
+NANPA prefix                 TP=1154  FN=1304  FP=138  TN=234  P=0.893 [0.875, 0.909]  R=0.469 [0.450, 0.489]  Spec=0.629 [0.579, 0.677]
+Recall by app (line type): {'2ndline': '0.996 [0.986, 0.999]', 'burner': '0.988 [0.974, 0.995]', 'hushed': '0.998 [0.988, 1.000]', 'textfree': '0.000 [0.000, 0.008]', 'textme': '0.582 [0.538, 0.624]'}
+Twilio returned no line type: 2508-set 0 | 611-set 14
+
+== 2. Known-contact negatives: line types and carriers
+Line types among 611-set positives: Counter({'nonFixedVoip': 225})
+Line types among 611-set negatives: Counter({'fixedVoip': 169, 'mobile': 117, 'landline': 86})
+Negative "real mobile" carriers: [('Onvoy', 72), ('T-Mobile USA', 19), ('Verizon Wireless', 13), ('AT&T Wireless', 7), ('Onvoy Spectrum', 6)]
+-> Negatives are read from the known-contact ID list, not derived from line type.
+
+== 3. Leave-one-app-out carrier rule (carrier list learned from the other apps; carriers with >=5 mobile numbers)
+  held out 2ndline   learned=['onvoy', 'onvoy spectrum']  recall=0.996 [0.986, 0.999]  FP on negatives=78/372
+  held out burner    learned=['onvoy spectrum']  recall=0.988 [0.974, 0.995]  FP on negatives=6/372
+  held out hushed    learned=['onvoy', 'onvoy spectrum']  recall=1.000 [0.992, 1.000]  FP on negatives=78/372
+  held out textfree  learned=['onvoy', 'onvoy spectrum']  recall=1.000 [0.992, 1.000]  FP on negatives=78/372
+  held out textme    learned=['onvoy', 'onvoy spectrum']  recall=1.000 [0.992, 1.000]  FP on negatives=78/372
+
+== 4. Sensitivity: exact "Onvoy Spectrum" carrier
+Line type + Onvoy Spectrum   TP=2449  FN=9     FP=6    TN=366  P=0.998 [0.995, 0.999]  R=0.996 [0.993, 0.998]  Spec=0.984 [0.965, 0.993]  F1=0.997
